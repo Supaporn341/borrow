@@ -22,7 +22,7 @@
         <div class="row">
             @if(!$items->isEmpty())
                 @foreach($items as $item)
-                    <div class="col-md-3">
+                    <div class="col-md-3 mt-3">
                         <div class="card">
                             <img class="card-img-top img-fluid " src="{{ url('/uploads/'.$item->image)}}" style="height:300px; object-fit: cover;"
                             >
